@@ -1,4 +1,5 @@
 #!/bin/sh
 
 # this is testing
-lsns -t time
+readlink /proc/$$/ns/time
+readlink /proc/$$/ns/time_for_children
